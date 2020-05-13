@@ -4,6 +4,7 @@ App that allows users to create meal plans.
 ## Get all meal plans
 ### GET http://34.86.75.208/api/foods/
 reponse: 
+```json
 {
 	"success": true,
 	"data": [
@@ -15,7 +16,7 @@ reponse:
 		}
 	]
 }
-
+```
 ## Create a food 
 ### POST http://34.86.75.208/api/foods/
 request body:
