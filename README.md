@@ -2,7 +2,7 @@
 App that allows users to create meal plans.
 
 ## Get all meal plans
-### GET /api/meal_plans/
+### GET http://34.86.75.208/api/foods/
 reponse: 
 {
 	"success": true,
