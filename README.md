@@ -20,8 +20,8 @@ reponse:
 ### POST http://34.86.75.208/api/foods/
 request body:
 {
-	"name": <USER INPUT>,
-	"calories": <USER INPUT>,
+	"name": <NAME>,
+	"calories": <NUMBER>,
 	"difficulty": <NUMBER BETWEEN 0 AND 10>
 }/
 reponse:
