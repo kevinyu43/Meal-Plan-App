@@ -23,5 +23,5 @@ request body:
 	"name": <NAME>,
 	"calories": <NUMBER>,
 	"difficulty": <NUMBER BETWEEN 0 AND 10>
-}/
+}<br />
 reponse:
