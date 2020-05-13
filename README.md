@@ -5,6 +5,14 @@ App that allows users to create meal plans.
 ### GET /api/meal_plans/
 reponse: 
 {
-  "success": true,
-  "data": [
-    {
+	"success": true,
+	"data": [
+		{
+			"id": 1,
+			"name": "sausage",
+			"difficulty": 6,
+			"calories": 260
+		}
+	]
+}
+
