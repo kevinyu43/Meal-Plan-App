@@ -16,3 +16,12 @@ reponse:
 	]
 }
 
+## Create a food 
+### POST http://34.86.75.208/api/foods/
+request body:
+{
+	"name": <USER INPUT>,
+	"calories": <USER INPUT>,
+	"difficulty": <NUMBER BETWEEN 0 AND 10>
+}/
+reponse:
