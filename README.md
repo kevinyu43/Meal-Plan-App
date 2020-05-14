@@ -22,9 +22,9 @@ reponse:
 request body:
 ```json
 {
-	"name": name,
-	"calories": number,
-	"difficulty": number between 1 and 10
+	"name": "name",
+	"calories": 999,
+	"difficulty": 1
 }
 ``` 
 reponse: 
@@ -51,7 +51,7 @@ response:
 		{
 			"id": 1,
 			"username": "kevin12",
-			"meal_plans": SERIALIZED MEAL PLANS
+			"meal_plans": [SERIALIZEDMEAL PLANS]
 		}
 	]
 }
