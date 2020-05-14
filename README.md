@@ -19,6 +19,7 @@ reponse:
 ```
 ## Create a food 
 ### POST http://34.86.75.208/api/foods/
+#### Sidenote: the difficulty must be between 0 and 10 or else there will be a 404 error
 request body:
 ```json
 {
