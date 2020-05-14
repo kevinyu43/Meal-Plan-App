@@ -1,7 +1,7 @@
 # Meal-Plan-App
 App that allows users to create meal plans.
 
-## Get all meal plans
+## Get all food
 ### GET http://34.86.75.208/api/foods/
 reponse: 
 ```json
@@ -32,14 +32,12 @@ reponse:
 ```json
 {
 	"success": true,
-	"data": [
-		{
-			"id": 1,
-			"name": "sausage",
-			"difficulty": 6,
-			"calories": 260
-		}
-	]
+	"data": {
+		"id": 1,
+		"name": "sausage",
+		"difficulty": 6,
+		"calories": 260
+	}
 }
 ```
 ## Get a user by ID
@@ -48,13 +46,11 @@ response:
 ```json
 {
 	"success": true,
-	"data": [
-		{
-			"id": 1,
-			"username": "kevin12",
-			"meal_plans": [SERIALIZEDMEAL PLANS]
-		}
-	]
+	"data": {
+		"id": 1,
+		"username": "kevin12",
+		"meal_plans": [SERIALIZEDMEAL PLANS]
+	}
 }
 ```
 ## Create User
@@ -69,13 +65,11 @@ response:
 ```json
 {
 	"success": true,
-	"data": [
-		{
-			"id": 1,
-			"username": "kevin12",
-			"meal_plans": [SERIALIZEDMEAL PLANS]
-		}
-	]
+	"data": {
+		"id": 1,
+		"username": "kevin12",
+		"meal_plans": [SERIALIZEDMEAL PLANS]
+	}
 }
 ```
 ## Delete User
@@ -84,13 +78,11 @@ response:
 ```json
 {
 	"success": true,
-	"data": [
-		{
-			"id": 1,
-			"username": "kevin12",
-			"meal_plans": [SERIALIZEDMEAL PLANS]
-		}
-	]
+	"data": {
+		"id": 1,
+		"username": "kevin12",
+		"meal_plans": [SERIALIZEDMEAL PLANS]
+	}
 }
 ```
 ## Get all meal plans
@@ -133,16 +125,14 @@ response:
 ```json
 {
 	"success": true,
-	"data": [
-		{
-			"id": 1,
-			"name": "breakfast",
-			"author_id": 4,
-			"foods": [SERIALIZED FOODS],
-			"total_calories": 100,
-			"difficulty": 7.7
-		}
-	]
+	"data": {
+		"id": 1,
+		"name": "breakfast",
+		"author_id": 4,
+		"foods": [SERIALIZED FOODS],
+		"total_calories": 100,
+		"difficulty": 7.7
+	}
 }
 ```
 ## Get meal plan by id
@@ -151,16 +141,14 @@ response:
 ```json
 {
 	"success": true,
-	"data": [
-		{
-			"id": 1,
-			"name": "breakfast",
-			"author_id": 4,
-			"foods": [SERIALIZED FOODS],
-			"total_calories": 100,
-			"difficulty": 7.7
-		}
-	]
+	"data": {
+		"id": 1,
+		"name": "breakfast",
+		"author_id": 4,
+		"foods": [SERIALIZED FOODS],
+		"total_calories": 100,
+		"difficulty": 7.7
+	}
 }
 ```
 ## Delete meal plan
@@ -169,16 +157,14 @@ response:
 ```json
 {
 	"success": true,
-	"data": [
-		{
-			"id": 1,
-			"name": "breakfast",
-			"author_id": 4,
-			"foods": [SERIALIZED FOODS],
-			"total_calories": 100,
-			"difficulty": 7.7
-		}
-	]
+	"data": {
+		"id": 1,
+		"name": "breakfast",
+		"author_id": 4,
+		"foods": [SERIALIZED FOODS],
+		"total_calories": 100,
+		"difficulty": 7.7
+	}
 }
 ```
 ## Add food to a meal
@@ -187,15 +173,13 @@ response:
 ```json
 {
 	"success": true,
-	"data": [
-		{
-			"id": 1,
-			"name": "breakfast",
-			"author_id": 4,
-			"foods": [SERIALIZED FOODS],
-			"total_calories": 100,
-			"difficulty": 7.7
-		}
-	]
+	"data": {
+		"id": 1,
+		"name": "breakfast",
+		"author_id": 4,
+		"foods": [SERIALIZED FOODS],
+		"total_calories": 100,
+		"difficulty": 7.7
+	}
 }
 ```
