@@ -22,12 +22,11 @@ reponse:
 request body:
 ```json
 {
-	"name": NAME,
-	"calories": NUMBER,
-	"difficulty": NUMBER BETWEEN 0 AND 10
+	"name": name,
+	"calories": number,
+	"difficulty": number between 1 and 10
 }
 ``` 
-<br />
 reponse: 
 ```json
 {
